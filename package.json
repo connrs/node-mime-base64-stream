@@ -1,0 +1,29 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "mime-base64-stream",
+  "description": "Stream data to base64 wrapped at 76 characters",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/node-mime-base64-stream.git"
+  },
+  "main": "lib/mime-base64-stream.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "keywords": [
+    "mime", "base64"
+  ],
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "author": "connrs",
+  "devDependencies": {
+    "tape": "~1.1.0"
+  }
+}
